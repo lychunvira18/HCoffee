@@ -1,13 +1,27 @@
 import Vue from "vue";
 import Router from "vue-router";
-import home from "@/components/hcoffee.vue";
+import Home from "./views/home.vue";
+import Market from "./views/market.vue";
+import Aboutus from "./views/aboutus.vue";
+
 Vue.use(Router);
+
 export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: home
+      name: "Home",
+      component: Home
+    },
+    {
+      path: "/market",
+      name: "Market",
+      component: Market
+    },
+    {
+      path: "/aboutus",
+      name: "aboutus",
+      component: Aboutus
     }
   ]
 });

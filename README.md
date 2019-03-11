@@ -1,4 +1,4 @@
-# hcoffee
+# project
 
 ## Project setup
 ```
